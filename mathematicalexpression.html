@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Evaluate the Expression </title>
+<script type="text/javascript">
+function calculate()
+{
+document.expform.result.value=eval(document.expform.expr.value);
+}
+</script>
+</head>
+<body>
+<form name="expform">
+<h2>Evaluation of mathematical Expression</h2>
+<center>
+Enter Mathematical Expression:<input type="text" name="expr"><br><br> <input type="button" name="expexecute" value="Execute" onclick="calculate()"><br><br>
+Result:<input type="text" name="result"><br><br>
+<input type="reset" name="expreset" value="clear">
+</center>
+</form>
+</body>
+</html>

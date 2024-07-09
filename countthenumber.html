@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Count the number of Elements in a form </title>
+<script type="text/javascript">
+function count()
+{
+alert("The number of element in student form are:"+document.sform.length);
+}
+</script>
+</head>
+<body>
+<form name="sform">
+<pre>
+<h1>Student form</h1>
+Regist Number:<input type="text" name="sregno"><br>
+Student Name:<input type="text" name="sname"><br>
+<b>Gender</b>
+Male<input type="radio" name="smale"><br>
+Female<input type="radio" name="sfemale"><br>
+<b>Qualification</b>
+Under Graduate<input type="checkbox" Name="sug">
+Post Graduate<input type="checkbox"Name="spg">
+</pre>
+<input type="submit" value="Execute" onclick="count()">
+</form>
+</body>
+</html>

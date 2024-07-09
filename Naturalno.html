@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Natural Number</title>
+<script type="text/javascript">
+function sum()
+{
+var n,i,f=0;
+n=parseInt(prompt("Enter Number"));
+if(n<0)
+alert("Enter positive number");
+else
+{
+for(i=1;i<=n;i++)
+{
+f=f+i;
+}
+document.write("sum of Natural Numbers="+f);
+}
+}
+</script>
+</head>
+<body>
+<p>Click the following button to call the function</p>
+<form>
+<input type="button" onclick="sum()" value="Natural No.">
+</form>
+</body>
+</html>

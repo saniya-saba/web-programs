@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Recursive Factorial Function</title>
+<script type="text/javascript">
+var number,n;
+num=window.prompt("Enter the number to find the factorail","0");
+n=parseInt(num);
+document.write("<h1><center>Factorial of "+n+" is ");
+for(var i=0;i=n;i++)
+var f=fact(n);
+document.write("<i>"+f+"</i></center></h1>");
+function fact(n)
+{
+if(n==1)
+return 1;
+else
+return n*fact(n-1);
+}
+</script>
+</head><body background-color="background-color"></body>
+</html>
